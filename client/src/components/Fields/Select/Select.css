@@ -1,0 +1,9 @@
+.select__control {
+  border-radius: 12px !important;
+  border: 2px solid #797777 !important;
+  padding: 7px 9px !important;
+}
+
+.select__single-value {
+  color: #000000 !important;
+}

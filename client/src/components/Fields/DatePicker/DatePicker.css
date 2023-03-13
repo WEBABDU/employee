@@ -1,0 +1,31 @@
+.custom-datepicker .form-label {
+  text-align: left;
+}
+
+.custom-datepicker .react-datepicker-wrapper {
+  display: flex;
+  align-items: center;
+
+  width: 95%;
+  padding: 15px 9px;
+
+  color: #000000;
+
+  background: #fff;
+  border: 2px solid #797777;
+  border-radius: 12px;
+
+  transition: 0.1s linear;
+}
+
+.custom-datepicker input {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
+.custom-datepicker input:where(:focus, :focus-visible, :active) {
+  border: none;
+  outline: none;
+}

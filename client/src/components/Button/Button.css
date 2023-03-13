@@ -1,0 +1,54 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 15px 36px;
+  cursor: pointer;
+  transition: all var(--transition);
+  border: none;
+}
+
+/* .button:disabled,
+.button[disabled] {
+  background: #657693;
+} */
+
+.button[data-variant="default"] {
+  display: inline-block;
+  background: #1d355d;
+}
+
+.button[data-variant="login"] {
+  background: #fff;
+  color: #000;
+  border: 2px solid #1d355d;
+  transition: background 0.4s ease-in;
+}
+
+.button[data-variant="add"] {
+  width: 60px;
+  height: 60px;
+  background-color: #1d355d;
+  border-radius: 50%;
+  padding: 0;
+}
+.button[data-variant="cancel"] {
+  min-width: 176px;
+  background-color: #eb4343;
+}
+.button[data-variant="delete"] {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 100%;
+  background-color: #eb4343;
+}
+
+.btn_content {
+  display: flex;
+  gap: 2px;
+}
